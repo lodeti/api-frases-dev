@@ -27,13 +27,13 @@ A depuração é duas vezes mais difícil do que escrever o código em primeiro 
 ### Página Inicial
 Exibe uma mensagem de boas-vindas e informações sobre a API.
 
-```bash
+```
 GET /
 ```
 
 Resposta:
 
-```bash
+```
 Bem-vindo à API Frases Dev! Esta API é bem simples e foi construída, a princípio, apenas para uso em projetos pessoais simples. O endpoint /frase exibirá uma frase com uma dica tech!
 ``` 
 
@@ -58,7 +58,7 @@ fetch('https://api-frases-dev.vercel.app/frase')
   });
 ```
 
-### cURL`
+### cURL
 
 ```bash
 curl https://api-frases-dev.vercel.app/frase
