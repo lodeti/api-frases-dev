@@ -57,6 +57,19 @@ fetch('https://api-frases-dev.vercel.app/frase')
     console.error('Erro:', error);
   });
 ```
+```javascript
+async function obterFraseAleatoria() {
+  try {
+    const response = await fetch('https://api-frases-dev.vercel.app/frase');
+    const data = await response.json();
+    console.log(data.frase);
+  } catch (error) {
+    console.error('Erro:', error);
+  }
+}
+
+obterFraseAleatoria();
+```
 
 ### cURL
 
