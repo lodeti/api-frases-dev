@@ -45,8 +45,8 @@ A API pode retornar os seguintes códigos de erro:
 
 ## Exemplos de Uso
 
-### Javascript (fetch)
-
+### Javascript
+Exemplo 1:
 ```javascript
 fetch('https://api-frases-dev.vercel.app/frase')
   .then(response => response.json())
@@ -57,6 +57,7 @@ fetch('https://api-frases-dev.vercel.app/frase')
     console.error('Erro:', error);
   });
 ```
+Exemplo 2:
 ```javascript
 async function obterFraseAleatoria() {
   try {
