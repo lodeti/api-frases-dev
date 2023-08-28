@@ -39,10 +39,10 @@ app.get("/frases", (req, res) => {
   const pagina = parseInt(req.query.pagina) || 1;
   const quantidade = parseInt(req.query.quantidade) || 10;
 
-  const startIndex = (pagina - 1) * quantidade;
-  const endIndex = startIndex + quantidade;
+  const incioIndice = (pagina - 1) * quantidade;
+  const fimIndice = inicioIndice + quantidade;
 
-  const frasesPaginadas = frases.slice(startIndex, endIndex);
+  const frasesPaginadas = frases.slice(inicioIndice, fimIndice);
 
   res.send({
     paginaAtual: pagina,
