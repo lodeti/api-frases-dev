@@ -60,7 +60,7 @@ A API pode retornar os seguintes códigos de erro:
 ### Javascript
 Exemplo 1:
 ```javascript
-fetch('https://api-frases-dev.vercel.app/frase')
+fetch('https://api-frases-dev.vercel.app/dica')
   .then(response => response.json())
   .then(data => {
     console.log(data.frase);
@@ -73,7 +73,7 @@ Exemplo 2:
 ```javascript
 async function obterFraseAleatoria() {
   try {
-    const response = await fetch('https://api-frases-dev.vercel.app/frase');
+    const response = await fetch('https://api-frases-dev.vercel.app/dica');
     const data = await response.json();
     console.log(data.frase);
   } catch (error) {
