@@ -2,7 +2,7 @@
 
 Bem-vindo à Documentação da API Frases Dev! Esta API fornece frases aleatórias relacionadas a dicas técnicas. Ela é bem simples e foi projetada para uso em projetos pessoais.
 
-**Disclaimer:** A maioria das frases foram geradas por IA. Caso encontre alguma que seja passível de correção, sinta-se livre para corrigir. 
+**Disclaimer:** Boa parte das frases foram geradas por IA. Caso encontre alguma que seja passível de correção, sinta-se livre para corrigir. 
 
 ## Base URL
 
