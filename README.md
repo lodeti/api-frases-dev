@@ -1,6 +1,7 @@
 # API Frases Dev
 
-Bem-vindo à Documentação da API Frases Dev! Esta API fornece frases aleatórias relacionadas a dicas técnicas. Ela é bem simples e foi projetada para uso em projetos pessoais.
+Bem-vindo à Documentação da API Frases Dev! Esta API fornece frases aleatórias relacionadas a dicas técnicas para carreiras tech em geral. Ela é bem simples e foi projetada para uso em projetos pessoais.
+Os temas são, por exemplo: Boas práticas em programação, HTML/CSS, JavaScript e seus frameworks, UI/UX, ciência e engenharia de dados, linux e etc.
 
 **Disclaimer:** Boa parte das frases foram geradas por IA. Caso encontre alguma que seja passível de correção, sinta-se livre para corrigir. 
 
