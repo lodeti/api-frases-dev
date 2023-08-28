@@ -45,7 +45,7 @@ app.get("/frases", (req, res) => {
   const frasesPaginadas = frases.slice(startIndex, endIndex);
 
   res.send({
-    currentPage: pagina,
+    paginaAtual: pagina,
     quantidade: quantidade,
     frases: frasesPaginadas,
   });
