@@ -17,37 +17,28 @@ https://api-frases-dev.vercel.app
 ### Página Inicial
 Exibe uma mensagem de boas-vindas e informações sobre a API.
 
-```
-GET /
-```
+`GET /`
 
 Resposta:
 
-```
-Bem-vindo à API Frases Dev! Esta API é bem simples e foi construída, a princípio, apenas para uso em projetos pessoais simples. O endpoint /frase exibirá uma frase com uma dica tech!
-```
+`Bem-vindo à API Frases Dev! Esta API é bem simples e foi construída, a princípio, apenas para uso em projetos pessoais simples. O endpoint /frase exibirá uma frase com uma dica tech!`
 
 ### Obter uma Frase Aleatória
 
 Retorna uma frase aleatória com uma dica técnica.
 
-```bash
-GET /dica
-```
+`GET /dica`
 
 **Exemplo de Resposta:**
 
-```bash
-A depuração é duas vezes mais difícil do que escrever o código em primeiro lugar. Portanto, se você escrever o código o mais inteligível possível, não estará trapaceando.
-```
+`A depuração é duas vezes mais difícil do que escrever o código em primeiro lugar. Portanto, se você escrever o código o mais inteligível possível, não estará trapaceando.`
 
 ### Paginação ###
 
 Para obter uma quantidade específica de frases, utilize:
 
-```bash
-GET /frases?pagina=1&quantidade=10
-```
+`GET /frases?pagina=1&quantidade=10`
+
 No exemplo acima, se obterá as 10 primeiras frases (página 1). Você pode alterar a página e a quantidade de frases exibidas em cada uma delas conforme quiser.
 
 ## Erros
